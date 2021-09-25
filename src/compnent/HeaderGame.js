@@ -7,11 +7,11 @@ export class HeaderGame extends Component {
 			<>
 				<Nav variant="pills">
 					<NavLink exact to="/">
-						Active
+						products
 					</NavLink>
 
 					<NavLink exact to="/favourite">
-						Option 2
+						my carts
 					</NavLink>
 				</Nav>
 			</>

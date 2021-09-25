@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HeaderGame from "./compnent/HeaderGame";
 import FavouriteGames from "./compnent/FavouriteGames";
 import MainGames from "./compnent/MainGames";
+import "./style.css";
 
 export class App extends Component {
 	render() {
