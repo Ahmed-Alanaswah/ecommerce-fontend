@@ -9,8 +9,8 @@ export class FavouriteData extends Component {
 		return this.props.ApiCrudData.map((obj, idx) => {
 			return (
 				<>
-					<Col lg={3} md={4} sm={6} xs={12}>
-						<Card style={{ width: "18rem" }}>
+					<Col lg={4} md={6} sm={6} xs={12}>
+						<Card className="card-game" style={{ width: "18rem" }}>
 							<Card.Img variant="top" src={obj.thumb} />
 							<Card.Body>
 								<Card.Title>{obj.title}</Card.Title>

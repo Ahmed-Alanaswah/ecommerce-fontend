@@ -5,7 +5,7 @@ export class HeaderGame extends Component {
 	render() {
 		return (
 			<>
-				<Nav variant="pills">
+				<Nav class="nav-game" variant="pills">
 					<NavLink exact to="/">
 						products
 					</NavLink>
